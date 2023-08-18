@@ -12,13 +12,17 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*background-image: url(https://www.freepik.com/free-vector/landing-page-with-purple-gradient-landscape_5267485.htm#query=forest&position=2&from_view=search&track=sph); */
-    background-color: aquamarine;
+    background: url(./images/purple-night.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .container {
     width: 420px;
-    background-color: blueviolet;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
